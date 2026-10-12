@@ -11,9 +11,8 @@ inputs:
   email: 
     description: The committer's email address
     reuired: true
-    defualt: ${{github.actor}}@localhost
+    default: ${{github.actor}}@localhost
   name:
     description: The committer's name
     required: true
-    defualt: ${{github.actor}}
-    
+    default: ${{github.actor}}
